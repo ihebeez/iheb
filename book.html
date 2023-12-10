@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="./book.css">
+</head>
+<body>
+    <!-- header section begin -->
+    <header class="header">
+    <a href="./home.html" class="logo"><i class="fas fa-heartbeat">VitaClinic</i></a>
+    <div>
+        <ul id="navbar">
+            <li><a href="home.html">Home</a></li>
+            <li><a  href="services.html">services</a></li>
+            <li><a  href="doctors.html">Doctors</a></li>
+            <li><a class="active" href="book.html">Book</a></li>
+
+            <li><a href="#footer">Contact us</a></li>
+
+            
+        </ul>
+        </div>
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </header>
+    <!-- header section end -->
+    <section class="login-section">
+        <div id="login-btn" ><i id="fa" class="fa fa-sign-in" aria-hidden="true"></i></div>
+        <div id="exit-btn" ><i  id="exit1" class="fa fa-times" aria-hidden="true"></i></div>
+        <div id="options">
+            <div id="login"><a href="./login.html">Login </a></div>
+            <div id="sign-up"><a href="./sign-up.html">Sign up</a></div>
+        </div>
+        
+    </section>
+
+
+    <div id="appointment" >
+        <h1>Take your appointment now :</h1>
+        <hr>
+        <form action="rendevous.php" method="post" name="form1">
+            <label for="doctor">Doctor</label>
+            <select name="doctor" id="doctor">
+                <optgroup label="General Practitioner :">
+                    <option value="Sarah_Johnson">Sarah Johnson</option>
+                    <option value="John_Smith">John Smith</option>
+                    <option value="Michael_Johnson">Michael Johnson</option>
+                    <option value="Jane_Doe">Jane Doe</option>
+                    <option value="Samar_Doe">Samar Doe</option>
+                </optgroup>
+                <optgroup label="Pediatrician :">
+                    <option value=" kane_Smith"> kane Smith</option>
+                    <option value="Isra_Johnson">Isra Johnson</option>
+                    <option value="Sara_John">Sara John</option>
+                    <option value="Simon_Johnson">Simon Johnson</option>
+                </optgroup>
+                <optgroup label="Neurologist :">
+                    <option value="Jessica_Lee">Jessica Lee</option>
+                    <option value="Jane_Williams">Jane Williams</option>
+                </optgroup>
+                <optgroup label="Oncologist :">
+                    <option value="Michael_Johnson">Michael Johnson</option>
+                    <option value="Sarah_Patel">Sarah Patel</option>
+                </optgroup>
+                <optgroup label="Gynecologist :">
+                    <option value="Sara_John">Sara John</option>
+                    <option value="Lisa_Chen">Lisa Chen</option>
+                </optgroup>
+                <optgroup label="Ophthalmologist :">
+                    <option value=" William_Lee"> William Lee</option>
+                    <option value="Emily_Chen">Emily Chen</option>
+                </optgroup>
+            </select>
+
+
+            <label for="date">Date of Visit:</label>
+            <input type="date" name="date" id="date" >
+            <label for="time">Time of visit:</label>
+            <select name="heur" id="" >
+                <option value="9h>>10h" >9h>>10h</option>
+                <option value="10h>>11h" >10h>>11h</option>
+                <option value="11>>12h" >11>>12h</option>
+                <option value="12h>>13h" >12h>>13h</option>
+                <option value="14h>>15h" >14h>>15h</option>
+                <option value="15h>>16h" >15h>>16h</option>
+                <option value="16h>>17h" >16h>>17h</option>
+                <option value="17h>>18h" >17h>>18h</option>
+                <option value="18h>>19h" >18h>>19h</option>
+                <option value="19h>>20h" >19h>>20h</option>
+                <option value="20h>>21h" >20h>>21h</option>
+                <option value="21h>>22h" >21h>>22h</option>
+                <option value="22h>>23h" >22h>>23h</option>
+            </select>
+            <input type="submit" name="nalider" id="valider" value="reserve" >
+		
+        </form>
+
+    </div>
+
+
+            
+</body>
+<footer class="footer-section" id="footer">
+    <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="cta-text">
+                            <h4>Find us</h4>
+                            <span>1010 Avenue, sw 54321, chandigarh</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-phone"></i>
+                        <div class="cta-text">
+                            <h4>Call us</h4>
+                            <span>9876543210 0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="far fa-envelope-open"></i>
+                        <div class="cta-text">
+                            <h4>Mail us</h4>
+                            <span>mail@info.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-content pt-5 pb-5">
+                        <div class="footer-social-icon">
+                            <span>Follow us</span>
+                            <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                            <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                            <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+<script src="./js4.js"></script> 
+</html>

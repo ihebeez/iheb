@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <link rel="stylesheet" href="./sign_up_success.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="./home.html" class="logo"><i class="fas fa-heartbeat">VitaClinic</i></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="home.html">Home</a></li>
+                <li><a  href="services.html">services</a></li>
+                <li><a  href="doctors.html">Doctors</a></li>
+                <li><a class="active" href="book.html">Book</a></li>
+
+                
+    
+                
+            </ul>
+            </div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+    </header>
+
+
+    <div id="login-input">
+        <img src="./login.gif" alt="" id="img-login">
+        
+
+        <form action="./login.php" method="post">
+            
+            <h1>Log in</h1>
+            <p>Please connect to your account then take your appointment .</p>
+            <hr>
+            <label for="">log in as</label><br>
+            <select name="logas" id="">
+                <option value="pastient">pastient</option>
+                <option value="admin">admin</option>
+                <option value="doctor">doctor</option>
+            </select><br>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" required>
+            <label for="pass">password</label>
+            <input type="password" name="psw" id="pass" required>
+            <h4>Congratulations, your sign up was successful! Welcome aboard!</h4>
+            <a href="./book.html" id="exit-btn1">Cancel</a>
+            <input type="submit" name="" id="sub" value="log in">
+           
+            
+
+
+        </form>
+
+    </div>
+    <script src="./js4.js"></script> 
+    
+</body>
+</html>
